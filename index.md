@@ -7,7 +7,7 @@ As a side effect, it is also a place to share my knowledge with others.
 The primary language here is English, specially for technical topics.
 Some articles are in German, as this is my native language.
 
-My nickname, originating somewhere in the early 90ies, is Jensens or in English Yenzenz.
+My nickname, originating somewhere in the early 90ies, is "Jensens" or in English "Yenzenz".
 It is pronounced like "Yen" and "Cents" (or "Sense").
 
 ## Recent blog posts
