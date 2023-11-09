@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+venv/
+_website/
+.doctrees/
+.DS_Store
+**/_autosummary/*

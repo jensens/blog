@@ -1,0 +1,10 @@
+pydata_sphinx_theme
+
+ablog
+myst_parser
+sphinx_copybutton
+sphinx_design
+sphinx_favicon
+sphinx_togglebutton
+sphinxcontrib.mermaid
+sphinxcontrib.youtube
