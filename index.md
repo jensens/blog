@@ -14,7 +14,7 @@ It is pronounced like "Yen" and "Cents" (or "Sense").
 
 ```{postlist} 10
 :date: "%Y-%m-%d"
-:format: "{title} - {date}"
+:format: "{title} - {date} - {language}"
 :excerpts:
 ```
 
