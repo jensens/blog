@@ -23,7 +23,7 @@ extensions = [
 # -- Theme Options ----------------------------------------------------
 
 html_theme = "pydata_sphinx_theme"
-
+html_title = project
 html_theme_options = {
     "show_prev_next": False,
     "icon_links": [
@@ -62,7 +62,7 @@ html_theme_options = {
 html_sidebars = {
     "*": [
         "ablog/categories.html",
-        # "ablog/languages.html",
+        "ablog/languages.html",
         "ablog/archives.html",
     ],
     "impress": [],
@@ -73,7 +73,7 @@ html_sidebars = {
         "ablog/languages.html",
         "ablog/archives.html",
     ],
-    "find/*": [
+    "list/*": [
         "ablog/tagcloud.html",
         "ablog/categories.html",
         "ablog/languages.html",
@@ -90,11 +90,12 @@ blog_authors = {
     "Jens W. Klein": ("Jens W. Klein", None),
 }
 blog_feed_archives = True
-blog_path = "find"
+blog_path = "list"
 post_date_format = "%Y-%m-%d"
 post_date_format_short = "%Y-%m-%d"
-
 blog_languages = {
     "en": ("English", None),
     "de": ("German", None),
 }
+post_show_prev_next = False
+fontawesome_included=True

@@ -3,8 +3,8 @@ blogpost: true
 date: Nov 9, 2023
 author: Jens W. Klein
 location: Austria
-category: Life, German in Austria, eID
-language: Deutsch
+category: German in Austria
+language: de
 ---
 
 
