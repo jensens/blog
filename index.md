@@ -21,5 +21,8 @@ It is pronounced like "Yen" and "Cents" (or "Sense").
 ```{toctree}
 :maxdepth: 2
 :hidden:
+
+All Posts <./list#https://>
+Feed <./list/atom.xml#https://>
 impress
 ```

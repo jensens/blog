@@ -29,6 +29,16 @@ html_theme_options = {
     "icon_links": [
         {
             # Label for this link
+            "name": "Feed of all posts",
+            # URL where the link will redirect
+            "url": "/list.atom.xml",  # required
+            # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+            "icon": "fa fa-rss",
+            # The type of image to be used (see below for details)
+            "type": "fontawesome",
+        },
+        {
+            # Label for this link
             "name": "Klein and Partner KG - My Company Website",
             # URL where the link will redirect
             "url": "https://kleiundpartner.at/",  # required
@@ -39,7 +49,7 @@ html_theme_options = {
         },
         {
             # Label for this link
-            "name": "GitHub",
+            "name": "Jensens GitHub profile",
             # URL where the link will redirect
             "url": "https://github.com/jensens/",  # required
             # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
@@ -49,7 +59,7 @@ html_theme_options = {
         },
         {
             # Label for this link
-            "name": "Mastodon",
+            "name": "Jensens Mastodon profile",
             # URL where the link will redirect
             "url": "https://nerdculture.de/@jensens/",  # required
             # Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
