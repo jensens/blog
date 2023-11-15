@@ -3,7 +3,7 @@ blogpost: true
 date: Nov 13, 2023
 author: Jens W. Klein
 location: Austria
-category: Search, Docker
+category: Search, Container
 language: en
 ---
 
