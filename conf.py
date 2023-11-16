@@ -19,7 +19,7 @@ extensions = [
     "sphinxcontrib.mermaid",
     "sphinxcontrib.youtube",
 ]
-
+templates_path = ["_templates"]
 # -- Theme Options ----------------------------------------------------
 
 html_theme = "pydata_sphinx_theme"
@@ -68,6 +68,7 @@ html_theme_options = {
             "type": "fontawesome",
         },
     ],
+    "secondary_sidebar_items": ["page-toc", "ablog/postcard.html", "license"],
 }
 html_sidebars = {
     "*": [
@@ -76,13 +77,10 @@ html_sidebars = {
         "ablog/archives.html",
     ],
     "impress": [],
-    "blog/*": [
-        "ablog/postcard.html",
+    "blog/**": [
         "ablog/recentposts.html",
-        "ablog/categories.html",
-        "ablog/languages.html",
         "ablog/archives.html",
-    ],
+     ],
     "list/*": [
         "ablog/tagcloud.html",
         "ablog/categories.html",

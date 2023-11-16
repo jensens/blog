@@ -25,7 +25,7 @@ email contact (preferred): jk@kleinundpartner.at
 
 mail contact
 
-```plain
+```
 Jens Klein
 c/o Klein & Partner KG
 Kirchgasse 6
