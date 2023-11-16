@@ -1,7 +1,7 @@
 # Yenzenz Brain Log
 
 This is my (Jens W. Klein) personal brain log, primary written to be useful for my future-self, to be found by some search-engine.
-It is a collection of how-to, notes, thoughts, ideas, and other things that I want to remember.
+It is a collection of how-tos, notes, thoughts, ideas, and other things that I want to remember.
 As a side effect, it is also a place to share my knowledge with others.
 
 The primary language here is English, specially for technical topics.
