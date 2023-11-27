@@ -57,7 +57,7 @@ There are variations of this, but this is the most common one.
 The new style is much simpler.
 
 - First we do not have any `setup.*` files, but a `pyproject.toml`.
-  It needs to have a build-system declared, I use still use `setuptools` here.
+  It needs to have a build-system declared, I use `setuptools` here.
   ```ini
   # ...
   [build-system]
