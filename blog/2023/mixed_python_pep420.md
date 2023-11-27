@@ -79,9 +79,9 @@ That is all. No more boilerplate code than an empty `__init__.py` file.
 
 If it comes to production environment with wheels, there are no problems at all.
 
-If the packages are installed in **editable mode**, there are some problems.
+If the packages are installed in editable mode, there are some serious problems.
 
-You shall not mix old and new style editable packages of one namespace in one Python (virtual) environment. The new style package wont work.
+> **You shall not mix old and new style editable packages of one namespace** in one Python (virtual) environment. The new style package wont work.
 
 &#10060; Failing example:
 ```bash
