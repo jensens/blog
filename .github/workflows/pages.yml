@@ -31,7 +31,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: Setup Pages
-      uses: actions/configure-pages@v1
+      uses: actions/configure-pages@v4
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
@@ -49,4 +49,4 @@ jobs:
         path: '_website'
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@main
+      uses: actions/deploy-pages@4
