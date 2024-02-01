@@ -89,7 +89,6 @@ void IRAM_ATTR detectsMovement()
 {
     Serial.println("MOTION DETECTED!!!");
     motionDetected = millis();
-    digitalWrite(LED_BUILTIN, LOW);
 }
 
 void setup()
@@ -105,7 +104,6 @@ void loop()
     {
         Serial.println("Switch off!");
         motionDetected = 0;
-        digitalWrite(LED_BUILTIN, HIGH);
     }
 }
 ```
