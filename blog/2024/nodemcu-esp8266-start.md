@@ -62,12 +62,13 @@ Getting a motion sensor to work was a bit tricky.
 I use a MH-SR602 PIR Motion Sensor. It has 3 pins: VCC, GND and OUT.
 OUT is always lo and on motion detection is get hi for 2.5s.
 Then it goes lo again.
+I found an explaining [video about SR602](https://www.youtube.com/watch?v=Ho8oLNZkQF8).
 
 First I implemented a check in the loop function, against the `millis()` function and a prev value to get the motion state.
 I need more than 2.5s light, so I need to check for high, and after it goes low wait my time minus 2.5s and then check again.
 Well, this is cumbersome.
 
-Then I found [Interrupts](https://randomnerdtutorials.com/interrupts-timers-esp8266-arduino-ide-nodemcu/  - well, sure! The interrupt goes out at the moment the pin changes to a selected state and triggers a function.
+Then I found [Interrupts](https://randomnerdtutorials.com/interrupts-timers-esp8266-arduino-ide-nodemcu/)  - well, sure! The interrupt goes out at the moment the pin changes to a selected state and triggers a function.
 This made my code way simpler.
 
 But it did not work.
