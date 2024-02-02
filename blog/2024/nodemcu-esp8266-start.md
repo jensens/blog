@@ -56,6 +56,9 @@ It has a voltage regulator on board, so you supply 5V via USB or to the Vin pin 
 
 All inputs need to be 3.3V. More just destroys it.
 
+Use level shifters to convert 3.3V to 5V or vice versa if you need to.
+Those are available as modules with 8 channels and are ready to use.
+
 ## Motion sensor
 
 Getting a motion sensor to work was a bit tricky.
