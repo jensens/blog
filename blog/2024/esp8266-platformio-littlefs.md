@@ -14,11 +14,11 @@ The current manuals are not exact enough for me. I want to use the LittleFS file
 
 ## The problem
 
-I use platform.io with Visual Studio Code. I have a NodeMCU V2 and want to use the LittleFS filesystem. I followed the instructions from the [Platform.io documentation](https://docs.platformio.org/en/latest/platforms/espressif8266.html#uploading-files-to-file-system-littlefs).
+I use platform.io with Visual Studio Code. I want to use the LittleFS filesystem. I followed the instructions from the [Platform.io documentation](https://docs.platformio.org/en/latest/platforms/espressif8266.html#uploading-files-to-file-system-littlefs). Well, I tought I did.
 
 I created a `data` folder in my project and put some files in it.
 
-The  I used the `platformio.ini` file to set the filesystem to `littlefs`:
+I used the `platformio.ini` file to set the filesystem to `littlefs`:
 
 ```ini
 ...
@@ -28,11 +28,11 @@ board_build.filesystem = littlefs
 ; ...
 ```
 
-Then I used the Platformio arrow in the bottom left icon-bar of Visual Studio Code to build upload the files to the device.
+Then I used the Platformio arrow-icon in the bottom left icon-bar of Visual Studio Code to build upload the files to the device.
 
 ![Iconbar with house/home, checkmark, arrow, dustbin](platformio-iconbar.png "Part of Platformio icon-bar")
 
-No I start my program and try to open the files. But they are not there.
+Now it starts my program and it tries to open the files. But they are not there.
 
 ## The solution
 
