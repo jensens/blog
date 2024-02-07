@@ -8,7 +8,7 @@ language: en
 ---
 
 
-# LittleFS with Platformio and the ESP8266/ NodeMCU
+# LittleFS with VSCode/Platformio and ESP8266/ NodeMCU
 
 The current manuals are not exact enough for me. I want to use the LittleFS filesystem with the ESP8266 and Platform.io. But for some reason I got no files on the device.
 
