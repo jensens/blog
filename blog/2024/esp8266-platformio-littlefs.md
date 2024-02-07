@@ -14,7 +14,7 @@ The current manuals are not exact enough for me. I want to use the LittleFS file
 
 ## The problem
 
-I use platform.io with Visual Studio Code. I have a NodeMCU V3 and want to use the LittleFS filesystem. I followed the instructions from the [Platform.io documentation](https://docs.platformio.org/en/latest/platforms/espressif8266.html#uploading-files-to-file-system-littlefs).
+I use platform.io with Visual Studio Code. I have a NodeMCU V2 and want to use the LittleFS filesystem. I followed the instructions from the [Platform.io documentation](https://docs.platformio.org/en/latest/platforms/espressif8266.html#uploading-files-to-file-system-littlefs).
 
 I created a `data` folder in my project and put some files in it.
 
