@@ -68,7 +68,7 @@ For now, we don't.
 
 Open the file in an editor and change variables:
 
-Since plone 6.10 needs Python 3.9 at least, set the PYTHON_VERSION to 3.9:
+Since plone 6.0.10 needs Python 3.9 at least, set the PYTHON_VERSION to 3.9:
 
 ```make
 PYTHON_MIN_VERSION?=3.9
