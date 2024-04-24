@@ -3,7 +3,7 @@ blogpost: true
 date: Dec 05, 2023
 author: Jens W. Klein
 location: Austria
-category: Python, Plone/Zope, Search
+category: Python, Plone, Zope, Search
 language: en
 ---
 

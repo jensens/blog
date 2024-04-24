@@ -3,7 +3,7 @@ blogpost: true
 date: Jan 15, 2024
 author: Jens W. Klein
 location: Austria
-category: Plone/Zope, Postgresql
+category: Plone, Zope, Postgresql
 language: en
 ---
 

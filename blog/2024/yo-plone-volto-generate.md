@@ -3,7 +3,7 @@ blogpost: true
 date: Mar 28, 2024
 author: Jens W. Klein
 location: Austria
-category: Volto, JS, Plone
+category: Volto, Javascript, Plone
 language: en
 ---
 
