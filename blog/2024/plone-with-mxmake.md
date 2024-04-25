@@ -55,7 +55,7 @@ echo "
 default_context:
     initial_user_password: admin
     debug_mode: true
-> instance.yaml"
+"> instance.yaml"
 ```
 
 # Modifications to the Makefile
