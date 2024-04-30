@@ -46,10 +46,9 @@ Additional an `mx.ini` was created.
 # Create the basic Plone setup files:
 
 ```shell
-echo "-c https://dist.plone.org/release/6.0.10.1/constraints.txt" > constraints.txt
-echo "Plone
-# the next line is a quick fix and should be removed when the next Plone release is out and used
-lxml[html_clean]
+echo "-c https://dist.plone.org/release/6.0.1/constraints.txt" > constraints.txt
+echo "-c constraints.txt
+Plone
 " > requirements.txt
 echo "
 default_context:
