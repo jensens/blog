@@ -42,7 +42,7 @@ Timezone information is essential to ensure the event always aligns with the use
 
 ## Convert at Display Time
 
-When displaying the event for other users in different time zones, conversions can be made dynamically — e.g., a 10 AM weekly event might usually appear as 3 PM for someone in a different timezoneelse.
+When displaying the event for other users in different time zones, conversions can be made dynamically — e.g., a 10 AM weekly event might usually appear as 3 PM for someone in a different timezone.
 During certain weeks, it may shift to 2 PM.
 This adjustment must be handled at the time of rendering, not by normalizing the input to a fixed timezone.
 
