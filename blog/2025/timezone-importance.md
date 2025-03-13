@@ -7,7 +7,7 @@ category: Knowledge
 language: en
 ---
 
-# Storing a Date Without a Timezone Kills a Kitten on Every Save
+# Storing a Date/Time Without a Timezone Kills a Kitten on Every Save
 
 When storing event dates in an IT system, the most important factor is preserving the original editor’s intended timezone, rather than normalizing everything to UTC.
 UTC is just another timezone — it doesn’t inherently simplify calculations.
