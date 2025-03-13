@@ -1,0 +1,8 @@
+<!-- _templates/base.html -->
+{% extends "!base.html" %}
+{% block extrahead %}
+    {% if enable_plausible %}
+    <script defer data-domain="yenzenz.com" src="https://stats.cloud.kup.tirol/js/script.js"></script>
+    {% endif %}
+    {{ super() }}
+{% endblock %}
