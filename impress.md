@@ -13,7 +13,11 @@ If you find an error, please let me know.
 ## Privacy
 
 This site is not tracking you.
-There are no cookies, no analytics, no social media buttons.
+There are no cookies, no social media buttons.
+
+The site uses my private Plausible instance to collect some basic statistics.
+It does so without collecting any personal data or personally identifiable information (PII), without using cookies and while respecting the privacy of the website visitors.
+For more information read the [Plausible privacy policy](https://plausible.io/data-policy).
 
 At the moment the site is hosted on [GitHub Pages](https://pages.github.com/).
 Therefore, GitHub may collect some data.
