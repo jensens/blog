@@ -23,6 +23,9 @@ At the moment the site is hosted on [GitHub Pages](https://pages.github.com/).
 Therefore, GitHub may collect some data.
 For details see the [GitHub Privacy Statement](https://help.github.com/en/github/site-policy/github-privacy-statement).
 
+However, if you follow any link on the site, the target probably tracks you.
+I recommend using a hardened Firefox (or trusted derivative) with add-ons uBlock Origin, I still Don't Care About Cookies and Cookie Auto Delete in a well configured Multi-Account-Containers environment.
+
 ## Contact
 
 email contact (preferred): jk@kleinundpartner.at
