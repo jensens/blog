@@ -47,4 +47,4 @@ During certain weeks, it may shift to 2 PM.
 This adjustment must be handled at the time of rendering, not by normalizing the input to a fixed timezone.
 
 
-*written because of many chats with different people about this, based on my [reply at community.plone.org in conversion "Datetime fields and timezones in Plone 5.2](https://community.plone.org/t/datetime-fields-and-timezones-in-plone-5-2/13332) 2021-01-14*
+*written because of many chats with different people about this, based on my [reply at community.plone.org in conversion "Datetime fields and timezones in Plone 5.2](https://community.plone.org/t/datetime-fields-and-timezones-in-plone-5-2/13332/10?u=jensens) 2021-01-14*
